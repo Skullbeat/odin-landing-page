@@ -8,6 +8,11 @@ body {
     margin: 0;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Typography */
 * {
     font-family: 'Roboto', sans-serif;
@@ -42,6 +47,9 @@ header {
     padding: 2rem;
     background-color: #2B2D42;
     color: #EDF2F4;
+}
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +73,57 @@ header {
 
 .menu-link:hover {
     color: #EF233C;
+}
+
+/* Banner */
+
+.banner {
+    min-height: 50vh;
+    padding: 2rem;
+    background-color: #2B2D42;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-text {
+    color: #EDF2F4;
+    max-width: 540px;;
+    flex: 1;
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    margin: 0 0 1rem;
+}
+
+.banner-text p {
+    font-size: 21px;
+    color: #8D99AE;
+}
+
+.banner-text .btn {
+    text-decoration: none;
+    font-size: 21px;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    background-color: #EF233C;
+    border: 1px solid #EF233C;
+    color: #EDF2F4;
+    transition: all .5s ease;
+}
+
+.banner-text .btn:hover {
+    background-color: transparent;
+    border: 1px solid #EDF2F4;
+}
+
+.banner .container img {
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 auto;
 }
