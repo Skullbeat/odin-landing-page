@@ -1,3 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
+
+/* General */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Typography */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Header */
+
+header {
+    padding: 2rem;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-link {
+    color: #EDF2F4;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.menu-link:hover {
+    color: #EF233C;
+}
