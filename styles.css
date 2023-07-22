@@ -129,7 +129,7 @@ header .container {
 
 /* Block info */
 .block-info {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 .block-info .title {
     text-align: center;
@@ -220,4 +220,49 @@ header .container {
     font-size: 16px;
     font-style: italic;
     margin-top: 1rem;
+}
+
+/* Block CTA */
+.block-cta {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-cta .cta-content {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    background-color: #EF233C;
+    color: #EDF2F4;
+}
+
+.cta-text h2 {
+    margin: 0 0 .5rem;
+    font-size: 21px;
+}
+
+.cta-text p {
+    margin: 0;
+}
+.cta-btn {
+    text-decoration: none;
+    font-size: 18px;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #EDF2F4;
+    color: #EDF2F4;
+    transition: all .5s ease;
+}
+
+.cta-btn:hover {
+    background-color: #EDF2F4;
+    color: #EF233C;
 }
