@@ -30,11 +30,11 @@ h6,
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 72px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 32px;
 }
 
 p {
@@ -97,7 +97,6 @@ header .container {
 }
 
 .banner-text h1 {
-    font-size: 72px;
     margin: 0 0 1rem;
 }
 
@@ -126,4 +125,42 @@ header .container {
     max-width: 100%;
     height: auto;
     flex: 0 1 auto;
+}
+
+/* Block info */
+.block-info .title {
+    text-align: center;
+    color: #EF233C;
+    font-weight: 700;
+}
+
+.block-info .info-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.block-info .info-content .info-element {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-info .info-content .info-element img {
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 auto;
+    border-radius: 20px;
+    border: 2px solid #EF233C;
+    margin-bottom: 1.5rem;
+}
+
+.block-info .info-content .info-element h3 {
+    margin: 0;
+    margin-bottom: .8rem;
+    font-weight: 700;
+}
+
+.block-info .info-content .info-element p {
+    margin: 0;
 }
